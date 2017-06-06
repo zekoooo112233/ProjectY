@@ -247,12 +247,12 @@ div.error{
 	margin-top:25px;
 	text-align:center;
 }
-.izvjestaj{
+.izvjestaj, .analiza{
 	width:50%;
 	margin: 0px auto;
 	
 }
-.izvjestaj section{
+.izvjestaj, .analiza section{
 	margin-bottom:20px;
 	font-size:20px;
 }
@@ -260,7 +260,7 @@ div.error{
 	list-style:none;
 	margin-left:10%;
 }
-.izvjestajh h1{
+.izvjestajh, .analizah h1{
 	margin-bottom:50px;
 }
 
