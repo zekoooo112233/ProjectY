@@ -247,6 +247,22 @@ div.error{
 	margin-top:25px;
 	text-align:center;
 }
+.izvjestaj{
+	width:50%;
+	margin: 0px auto;
+	
+}
+.izvjestaj section{
+	margin-bottom:20px;
+	font-size:20px;
+}
+.izvjestaj li{
+	list-style:none;
+	margin-left:10%;
+}
+.izvjestajh h1{
+	margin-bottom:50px;
+}
 
 
 
