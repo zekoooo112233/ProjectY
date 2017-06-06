@@ -1,0 +1,295 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+    width:100%;
+	background-color:#ccf5ff;
+}
+main.login{
+	margin:0 auto;
+	width:1000px;
+	min-height:700px;
+	
+}
+main.login table{
+	margin:0 auto;
+	margin-top:150px;
+	height:250px;
+	width:50%;
+	text-align:center;
+	font-size:22px;
+    font-family:"Palatino Linotype";
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+	
+}
+
+main.login table  input.login{
+	height:30px;
+}
+
+input#prijava{								/*gumbi*/
+	padding:10px;	
+	cursor:pointer;
+}
+
+input#stvoriPredaj{
+	border-radius:20px;
+	background-color:#99ebff;
+	margin-bottom:15px;
+    display: inline-block;
+    cursor: pointer;
+	padding:25px;
+	font-size:30px;
+	float:right; 
+}
+
+input#stvoriPredaj:hover{
+	background-color:#80e5ff;
+}
+
+
+input#kopiraj{	
+	margin-bottom:15px;
+	margin-left:35px;
+    display: inline-block;
+    cursor: pointer;
+	padding:20px;
+	font-size:30px;
+	float:left;
+}
+input#kopiraj:hover{
+	background-color:#80e5ff;
+}
+
+input#dijeli{
+	margin-bottom:15px;
+	margin-right:35px;
+    display: inline-block;
+    cursor: pointer;
+	padding:20px;
+	font-size:30px;
+	float:right;
+}
+input#dijeli:hover{
+	background-color:#80e5ff;
+}
+
+
+
+header{
+	margin-top:20px;
+	font-size:35px;
+}
+
+footer {
+	clear:both;
+	width:100%;
+	height:150px;
+	float:left;
+	background-color:#99ebff;
+}
+
+footer h3{
+	clear:both;
+	float:left;
+	background-color:#99ebff;
+	margin-top:20px;
+}
+
+footer p{
+	float:left;
+	margin-top:20px;
+	padding-left:20px;
+}
+
+
+.PopisAnketa{
+	float:left;
+	margin-left:10px;
+	width:200px;
+	margin-top:50px;
+	text-align:center;
+    font-family:"Palatino Linotype";
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+}
+
+.PopisAnketa h4{
+	float:left;
+}
+
+.PopisAnketa i {
+	float:right;
+	font-size:25px;
+	margin-left:15px;
+}
+
+
+.PopisAnketa:hover #opcije{
+	display:block;									/* ono kod prikaza znakic..pobrisat */
+	z-index:1;
+}
+
+.DodajAnketu{
+	margin-left:10px;
+	float:left;
+	width:200px;
+	margin-top:50px;
+	text-align:center;
+    font-family:"Palatino Linotype";
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+}
+
+.DodajAnketu i {	
+	font-size:55px;
+}
+
+
+#opcije{
+	display:none;							/* ono kod prikaza znakic..pobrisat */
+	border:2px solid black;
+	width:50px;
+}
+
+main.stvori{
+	margin:0 auto;
+	width:1000px;
+}
+div.potpis{
+	width:100%;
+	margin-top:35px;
+	margin-bottom:35px;
+	text-align:center;
+    font-family:"Palatino Linotype";
+	font-size:22px;
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+}
+div.stvori{
+	width:100%;
+	margin-bottom:35px;
+	
+    font-family:"Palatino Linotype";
+	font-size:22px;
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+}
+
+div.stvori textarea{
+	max-width:600px;
+}
+
+div.stvori input.odgovor{
+	margin-left:20px;
+}
+
+
+div.potpis input{
+	height:30px;
+}
+
+div.stvori a{
+	float:right;
+}
+
+div.vrstaOdg{
+	margin:0 auto;
+	width:70%;
+	margin-top:35px;
+	margin-bottom:35px;
+	text-align:center;
+    font-family:"Palatino Linotype";
+	font-size:22px;
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+}
+
+.potpis i{
+	font-size:70px;
+}
+
+div.login{				/* koristeno za url.html */
+	margin:0 auto;
+	margin-top:150px;	 	
+	height:250px;
+	width:50%;
+	text-align:center;
+	font-size:22px;
+    font-family:"Palatino Linotype";
+    border:2px solid black;
+    padding:10px 15px 10px 15px;
+    border-radius:20px;
+	background-color:#99ebff;
+}
+
+input#URLTextbox{
+	height:30px;
+}
+
+div.error{
+	margin:0 auto;
+	margin-top:25px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
