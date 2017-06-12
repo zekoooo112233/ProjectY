@@ -52,6 +52,25 @@ input#stvoriPredaj:hover{
 	background-color:#80e5ff;
 }
 
+input#analiza{
+	border-radius:20px;
+	background-color:#99ebff;
+	margin-bottom:15px;
+    display: inline-block;
+    cursor: pointer;
+	padding:25px;
+	font-size:30px;
+}
+main.izvjestaj  input{
+	margin-top:200px;
+}
+
+input#analiza:hover{
+	background-color:#80e5ff;
+}
+
+
+
 
 input#kopiraj{	
 	margin-bottom:15px;
@@ -132,10 +151,7 @@ footer p{
 }
 
 
-.PopisAnketa:hover #opcije{
-	display:block;									/* ono kod prikaza znakic..pobrisat */
-	z-index:1;
-}
+
 
 .DodajAnketu{
 	margin-left:10px;
@@ -155,11 +171,7 @@ footer p{
 }
 
 
-#opcije{
-	display:none;							/* ono kod prikaza znakic..pobrisat */
-	border:2px solid black;
-	width:50px;
-}
+
 
 main.stvori{
 	margin:0 auto;
@@ -264,7 +276,9 @@ div.error{
 	margin-bottom:50px;
 }
 
-
+footer#izvjestaj{
+	margin-top:100px;
+}
 
 
 
