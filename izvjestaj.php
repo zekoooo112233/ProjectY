@@ -1,3 +1,7 @@
+<?php
+	session_start();	
+?>
+
 <html>
 	<head>
 		<title>Izvještaj</title>
@@ -35,8 +39,15 @@
 					</ul>
 			</section>
 			
+			<center><a href="analiza.php"><input type="submit" value="Analiza" name="predaj" id="analiza"></a></center>
+			
 				
 		</main>
+		
+		<footer id="izvjestaj">
+			<h3>Trenutni korisnik: </h3> <p><?php echo $_SESSION['username']; ?> </p>
+			<h3>Datum i vrijeme: </h3><p><?php echo $date = date('H:i:s / d-M-y '); ?></p> &nbsp&nbsp&nbsp&nbsp
+		</footer>
 		
 	</body>
 </html>
