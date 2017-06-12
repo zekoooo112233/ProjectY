@@ -2,7 +2,7 @@
 	$error=false;
 	if(isset($_POST['login'])){
 		$username=preg_replace('/[^A-Za-z]/','',$_POST['username']);
-		$password=md5($_POST['pass']);
+		$password=($_POST['pass']);
 		if(file_exists('podaci.xml')){
 			$xml=simplexml_load_file("podaci.xml");
 			foreach ($xml->user as $users){ 
