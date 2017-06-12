@@ -23,9 +23,7 @@
 				<hr/>
 				<br/>
 				<h4>Datum kreiranja: </h4><a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
-				<div id="opcije">	
-					asda
-				</div>
+				
 				
 			</div>
 			
@@ -61,7 +59,7 @@
 		
 		<footer>
 			<h3>Trenutni korisnik: </h3> <p><?php echo $_SESSION['username']; ?> </p>
-			<h3>Datum i vrijeme: </h3> &nbsp&nbsp&nbsp&nbsp
+			<h3>Datum i vrijeme: </h3><p><?php echo $date = date('H:i:s / d-M-y '); ?></p> &nbsp&nbsp&nbsp&nbsp
 		</footer>
 		
 	</body>
