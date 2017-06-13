@@ -17,6 +17,7 @@
 		</header>
 		<main class="stvori">
 			<div class="potpis">
+				<a style="float:right;"><i style="font-size:22;" class="fa fa-star-o" aria-hidden="true"></i></a><br/>
 				<label><b>Potpis studenta ili JMBAG: </b><input type="text" size="35"/></label>
 				<br/>
 				
@@ -47,7 +48,7 @@
 			</div>
 			
 			<div class="stvori">
-				
+				<a><i class="fa fa-star-o" aria-hidden="true"></i></a><br/>
 				<label><b>3. pitanje: </b><textarea rows="2" cols="50" readonly></textarea><br/></label>
 				<br/>
 				<label>Vaš odgovor: <textarea rows="2" cols="50" class="odgovor"></textarea><br/></label>
