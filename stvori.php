@@ -19,13 +19,21 @@
 			<div class="potpis">
 				<label><b>Potpis studenta ili JMBAG: </b><input type="text" size="35"/></label>
 				<br/>
-				<label><input type="checkbox" name="potpis" value="Potpis"> Obavezan potpis<br/></label>
+				<label class="checkbox">
+				<br/>
+					<input type="checkbox" name="potpis" value="Potpis">
+					<i style="font-size:22;" class="fa fa-star-o unchecked"></i>
+					<i style="font-size:22;" class="fa fa-star checked"></i> Obavezan potpis</label><br/>
+				
 			</div>
 			
 			<div class="stvori">
 				<label>1. pitanje: <textarea rows="2" cols="50"></textarea><br/></label>
 				<br/>	
-				<a><label><input type="checkbox" name="odgovor" value="ObaveznoPopuniti"> Obavezno popuniti</label></a><br/>
+				<a><label class="checkbox"><input type="checkbox" name="odgovor" value="ObaveznoPopuniti">
+					<i class="fa fa-star-o unchecked"></i>
+					<i class="fa fa-star checked"></i>					
+					Obavezno popuniti</label></a><br/>
 			</div>
 			
 			<div class="vrstaOdg">
@@ -57,6 +65,8 @@
 		
 	</body>
 </html>
+
+
 
 
 
